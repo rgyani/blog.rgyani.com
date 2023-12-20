@@ -102,6 +102,11 @@ export const AWS_ARTICLES: Article[] = [
     subtitle: "Never put AWS temporary credentials in the credentials file (or env vars) — use AWS STS",
     link: "https://github.com/rgyani/aws-sts#readme"
   },
+  {
+    title: "AWS Lambda Error Handling",
+    subtitle: "Exploring the best practices for error handling in AWS Lambda",
+    link: "https://github.com/rgyani/lambda-error-handling#readme"
+  },
 ];
 
 export const MICROSERVICES_ARTICLES: Article[] = [
