@@ -107,6 +107,11 @@ export const AWS_ARTICLES: Article[] = [
     subtitle: "Exploring the best practices for error handling in AWS Lambda",
     link: "https://github.com/rgyani/lambda-error-handling#readme"
   },
+  {
+    title: "Machine-to-Machine communication over AWS Network",
+    subtitle: "Exploring system designs for Chat, Video Stream, Sensor Data collection",
+    link: "https://github.com/rgyani/m2m-over-aws#readme"
+  },
 ];
 
 export const MICROSERVICES_ARTICLES: Article[] = [
