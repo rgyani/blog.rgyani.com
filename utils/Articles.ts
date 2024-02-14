@@ -193,6 +193,11 @@ export const BIG_DATA_ARTICLES: Article[] = [
     link: "https://github.com/rgyani/interesting-concepts-in-bigdata/#readme",
     subtitle: "Consistent Hashing, GeoHashes, Concensus Protocols (Paxos, Raft, Gossip), B-tree and LSM-tree"
   },
+  {
+    title: "Postgres vs MySQL",
+    link: "https://github.com/rgyani/sql-tech-comparison/#readme",
+    subtitle: "A Shallow Dive into the internals of MySQL vs Postgres"
+  },
 ];
 
 export const JAVA_ARTICLES: Article[] = [
