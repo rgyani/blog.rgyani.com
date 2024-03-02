@@ -145,18 +145,23 @@ export const MICROSERVICES_ARTICLES: Article[] = [
     link: "https://github.com/rgyani/docker-notes/#readme",
     subtitle: "My notes about docker images."
   },
+  {
+    title: "Observability",
+    link: "https://github.com/rgyani/observability-stack/#readme",
+    subtitle: "keep track of system and application health and performance using traces, metrics and logging"
+  }
 ];
 
 export const BIG_DATA_ARTICLES: Article[] = [
   {
     title: "Kafka vs Kinesis",
     link: "https://github.com/rgyani/kafka-vs-kinesis/#readme",
-    subtitle: "Analyse the internals and differences between the Apache Kafka vs Amazon Kinesis. And also, Redis pub/sub"
+    subtitle: "Analyze the internals and differences between the Apache Kafka vs Amazon Kinesis. And also, Redis pub/sub"
   },
   {
     title: "Big Data Write Path",
     link: "https://github.com/rgyani/write-path/#readme",
-    subtitle: "Analyse the read-write path of HDFS, HBase, Kafka, Zookeeper, Cassandra."
+    subtitle: "Analyze the read-write path of HDFS, HBase, Kafka, Zookeeper, Cassandra."
   },
   {
     title: "Big Data Streaming Options",
@@ -166,7 +171,7 @@ export const BIG_DATA_ARTICLES: Article[] = [
   {
     title: "Fraud Detection with Kafka",
     link: "https://github.com/rgyani/fraud-detection-with-kafka/#readme",
-    subtitle: "Lambda vs Kappa Architecure and Fraud Detection with Apache Kafka, KSQL"
+    subtitle: "Lambda vs Kappa Architecture and Fraud Detection with Apache Kafka, KSQL"
   },
   {
     title: "Hadoop, Hbase, YARN notes",
@@ -191,7 +196,7 @@ export const BIG_DATA_ARTICLES: Article[] = [
   {
     title: "Interesting Concepts in Big Data",
     link: "https://github.com/rgyani/interesting-concepts-in-bigdata/#readme",
-    subtitle: "Consistent Hashing, GeoHashes, Concensus Protocols (Paxos, Raft, Gossip), B-tree and LSM-tree"
+    subtitle: "Consistent Hashing, GeoHashes, Consensus Protocols (Paxos, Raft, Gossip), B-tree and LSM-tree"
   },
   {
     title: "Postgres vs MySQL",
@@ -246,7 +251,7 @@ export const HTTP_ARTICLES: Article[] = [
   {
     title: "How does real time bidding for Ads work?",
     link: "https://github.com/rgyani/ad-tech/#readme",
-    subtitle: "When you access a website, the display ads you see, how are they choosen?"
+    subtitle: "When you access a website, the display ads you see, how are they chosen?"
   },
   {
     title: "TCP vs UDP?",
