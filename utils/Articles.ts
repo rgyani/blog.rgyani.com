@@ -112,6 +112,11 @@ export const AWS_ARTICLES: Article[] = [
     subtitle: "Exploring system designs for Chat, Video Stream, Sensor Data collection",
     link: "https://github.com/rgyani/m2m-over-aws#readme"
   },
+  {
+    title: "Terraform Notes",
+    subtitle: "My notes on terraform",
+    link: "https://github.com/rgyani/terraform-notes#readme"
+  },
 ];
 
 export const MICROSERVICES_ARTICLES: Article[] = [
