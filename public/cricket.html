@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Legends</title>
+  <meta name="description" content="Enjoy a 10 over Cricket League match">
+  <meta property="og:title" content="Cricket Legends" />
+  <meta property="og:description" content="Enjoy a 10 over Cricket League match">
+  <meta property="og:type" content="game" />
+  <meta property="og:locale" content="en_EN" />
+  <meta property="al:ios:app_name" content="Cricket Legends" />
+  <meta property="al:android:app_name" content="Cricket Legends" />
+  <meta property="al:web:should_fallback" content="false" />
+  <script>
+    function redirect() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      var ios = /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream;
+      if (ios) {
+        window.setTimeout(() => {
+          window.location.replace('https://apps.apple.com/us/app/cricket-legends/id6470269023')
+        }, 25)
+        return
+      }
+      var android = /android/i.test(userAgent);
+      if (android) {
+        window.setTimeout(() => {
+          window.location.replace('market://details?id=com.rgyani.cricket.ipl')
+        }, 25)
+        return
+      }
+      window.location.replace('https://rgyani.com/#cricket')
+    }
+    redirect()
+  </script>
+</head>
+<body>
+</body>
+</html>
