@@ -33,6 +33,11 @@ export const AWS_ARTICLES: Article[] = [
     subtitle: "AWS Introduced Lambda function URLs, but needs SigV4 to be able to invoke them securely"
   },
   {
+    title: "AWS Session Manager port forwarding",
+    link: "https://github.com/rgyani/aws-session-manager-port-forwarding#readme",
+    subtitle: "Use Systems Manager Session Manager port forwarding to connect to EC2 instance through RDP"
+  },
+  {
     title: "AWS DynamoDB",
     link: "https://github.com/rgyani/aws-dynamodb#readme",
     subtitle: "My notes on DynamoDB"
