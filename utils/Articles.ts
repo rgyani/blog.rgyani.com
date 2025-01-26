@@ -185,7 +185,7 @@ export const BIG_DATA_ARTICLES: Article[] = [
   },
   {
     title: "Hadoop, Hbase, YARN notes",
-    link: "https://github.com/rgyani/hadoop-hbase-nodes/#readme",
+    link: "https://github.com/rgyani/hadoop-hbase-notes/#readme",
     subtitle: "My notes collected over the years on Hadoop, Hbase and YARN"
   },
   {
