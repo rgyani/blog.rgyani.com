@@ -275,7 +275,7 @@ export const HTTP_ARTICLES: Article[] = [
   },
   {
     title: "SQL operations",
-    link: "https://dsfaisal.com/articles/2020-11-06-leetcode-sql-problem-solving/",
+    link: "https://github.com/rgyani/sql-notes#readme",
     subtitle: "Leetcode SQL interview questions"
   },
 
