@@ -245,7 +245,7 @@ export const JAVA_ARTICLES: Article[] = [
 
 export const PYTHON_ARTICLES: Article[] = [
   {
-    title: "Python threading",
+    title: "Python Threading",
     link: "https://github.com/rgyani/python-threading/#readme",
     subtitle: "Demystifying Python Multiprocessing and Multithreading and the Global Interpreter Lock"
   },
@@ -253,6 +253,11 @@ export const PYTHON_ARTICLES: Article[] = [
     title: "Python Memory Management",
     link: "https://github.com/rgyani/python-memory-management/#readme",
     subtitle: "Reference Counting and Generational Garbage Collection"
+  },
+  {
+    title: "Python Decorators",
+    link: "https://github.com/rgyani/python-decorators/#readme",
+    subtitle: "Python Decorators, Generators and Context Managers"
   }
 ];
 
