@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubbles: Learn a Language</title>
+  <meta name="description" content="Bubbles: Learn a Language">
+  <meta property="og:title" content="Bubbles: Learn a Language" />
+  <meta property="og:description" content="Bubbles: Learn a Language">
+  <meta property="og:type" content="game" />
+  <meta property="og:locale" content="en_EN" />
+  <meta property="al:ios:app_name" content="Bubbles: Learn a Language" />
+  <meta property="al:android:app_name" content="Bubbles: Learn a Language" />
+  <meta property="al:web:should_fallback" content="false" />
+  <script>
+    function redirect() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      var ios = /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream;
+      if (ios) {
+        window.setTimeout(() => {
+          window.location.replace('https://apps.apple.com/us/app/bubbles-learn-a-language/id1598011148')
+        }, 25)
+        return
+      }
+      var android = /android/i.test(userAgent);
+      if (android) {
+        window.setTimeout(() => {
+          window.location.replace('market://details?id=com.rGyani.bubbles')
+        }, 25)
+        return
+      }
+      window.location.replace('https://rgyani.com/#bubbles')
+    }
+    redirect()
+  </script>
+</head>
+<body>
+</body>
+</html>
